@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int main() {
+int main(){
     int n;
-    while (cin >> n) {
-        int threshold = (n - 1) / 2;
-        int count = n - threshold;
-        cout << count << endl;
+    cin >> n;
+    if(n == 0){
+        cout << 1;
+    } else {
+        cout << (n - (n - 1) /2) << endl;
     }
-    return 0;
 }
