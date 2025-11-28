@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int idArr[1000005];
 int scoreArr[1000005];
 int binarySearch(int n, int target) {

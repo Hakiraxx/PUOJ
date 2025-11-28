@@ -12,7 +12,6 @@ int main() {
     for (int i = 0; i < total; i++) {
         long long next1 = unlucky[i] * 10 + 3;
         long long next2 = unlucky[i] * 10 + 7;
-        
         if (next1 <= n) unlucky[total++] = next1;
         if (next2 <= n) unlucky[total++] = next2;
     }
@@ -32,6 +31,5 @@ int main() {
             }
         }
     }
-    
     return 0;
 }
